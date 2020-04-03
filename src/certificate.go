@@ -113,7 +113,7 @@ func main() {
 
 	fpdf.SetFont("arial", "", 22)
 	_, lineHt = fpdf.GetFontSize()
-	fpdf.WriteAligned(0, lineHt*1.5, "For successfully completing all 2 week Go Track 	as part of Learn From Home by TinkerHub Foundation!", gofpdf.AlignCenter)
+	fpdf.WriteAligned(0, lineHt*1.5, "For successfully completing all 2 week Go Track! Thanks for participating in the program!", gofpdf.AlignCenter)
 	pdf.Move(0, lineHt*4.5)
 
 	fpdf.ImageOptions("images/learnabit.jpg", w/2.0-50.0, pdf.y, 100.0, 0, false, gofpdf.ImageOptions{
